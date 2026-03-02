@@ -13,6 +13,6 @@ public class DashboardPage {
     @FindBy(tagName = "h1")
     public WebElement welcomeSign;
 
-    @FindBy(css = "logout-button")
+    @FindBy(css = "button[data-testid='logout-button']")
     public WebElement logoutBtn;
 }
